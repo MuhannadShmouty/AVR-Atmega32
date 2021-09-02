@@ -1,15 +1,19 @@
 /*
- * SEV_SEG.h
+ * SEV_SEG_program.c
  *
- *  Created on: Aug 28, 2021
+ *  Created on: Sep 2, 2021
  *      Author: Muhannad Shmouty
  */
 
-#ifndef SEV_SEG_H_
-#define SEV_SEG_H_
+#include "../Services/STD_TYPES.h"
+#include "../MCAL/DIO_PRIVATE.h"
+#include "../Services/BIT_MATH.h"
+#include "../MCAL/DIO_INTERFACE.h"
 
-#define deg_0 1
-#define deg_1 0
+#include "SEV_SEG_config.h"
+#include "SEV_SEG_interface.h"
+#include "SEV_SEG_private.h"
+
 
 u8 digits[11] = {
 //  a  b  c  d  e  f  g  .
@@ -25,5 +29,3 @@ u8 digits[11] = {
   0b11110110,  // 9
   0b00000001   // .
 };
-
-#endif /* SEV_SEG_H_ */

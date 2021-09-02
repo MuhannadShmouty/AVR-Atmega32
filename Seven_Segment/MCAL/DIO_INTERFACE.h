@@ -8,14 +8,14 @@
 #ifndef DIO_INTERFACE_H_
 #define DIO_INTERFACE_H_
 
-#include "STD_TYPES.h"
+#include "../Services/STD_TYPES.h"
 #define DIO_u8_PORTA 0
 #define DIO_u8_PORTB 1
 #define DIO_u8_PORTC 2
 #define DIO_u8_PORTD 3
 
 #define DIO_u8_PORT_OUTPUT 0xFF
-#define DIO_u8_INTPUT 0
+#define DIO_u8_INPUT 0
 #define DIO_u8_OUTPUT 1
 
 #define DIO_u8_LOW 0
