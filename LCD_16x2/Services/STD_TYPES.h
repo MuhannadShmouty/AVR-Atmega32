@@ -25,4 +25,7 @@ typedef float f32;
 typedef double f64;
 typedef long double f128;
 
+#define STD_OK 1
+#define STD_NOK 0
+
 #endif /* STD_TYPES_H_ */
